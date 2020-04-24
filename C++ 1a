@@ -11,4 +11,3 @@ cout<<"size of float: "<< sizeof(float)
 cout<<"size of double: "<< sizeof(double)
     <<"bytes"<<endl;
 return 0;
-}
