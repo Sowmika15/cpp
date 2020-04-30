@@ -7,7 +7,7 @@ using namespace std;
 static int p = 0;
 class a
 {
-  char busn[5], driver[10], arrival[5], depart[5], from[10], to[10], seat[8][4][10];
+  char busn[5], driver[10], arrival[5], depart[5], from[10], to[10], seat[8][4][10], age[5], gender[2]; 
 public:
  void install();
   void allotment();
@@ -28,6 +28,10 @@ void a::install()
   cin>>bus[p].busn;
   cout<<"\nEnter Driver's name: ";
   cin>>bus[p].driver;
+  cout<<"\nDriver's age:";
+  cin>>bus[p].age;
+  cout<<"\nDriver's gender:";
+  cin>>bus[p].gender;
   cout<<"\nArrival time: ";
   cin>>bus[p].arrival;
   cout<<"\nDeparture: ";
